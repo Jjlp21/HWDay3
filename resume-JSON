@@ -1,0 +1,59 @@
+var emp= [
+    
+        {  Basics: "-",
+           name:"Joseph John Louis Paul",
+           current_designation:"BDA",
+           email:"jjlp@gmail.com",
+           phone:"7012961557",
+           blog:"jopan@blogspot.com",
+
+        },
+
+        {   Address: "-",
+            Street:"bethel lane, mission quarters",
+            Pin:"680001",
+            city:"thrissur",
+            state:"kerala",
+            country:"india"
+        },
+       
+        {   Social_media_handles: "-",
+            facebook:"jjlpaul",
+            twitter:"jopans",
+        },
+
+        {   Career_Summary: "-",
+            c1:"BDM at Newlife Education Consultancy (april2018-june2019)",
+            c2:"Sr. BDA at Think and Learn Pvt Ltd. (july2019-september2020)",
+            c3:"Sr. BDA at UpGrad Educations Pvt Ltd. (november2020-march2021)",
+        },
+
+        {   Educational_Background: "-",
+            "10th":"The Choice School (7.2 CGPA)",
+            "12th":"Toc H (8.6 CGPA)",
+            Degree: "Alliance College of Engineering and Design (8.5 CGPA)"
+        },
+
+        { Skills: "-",
+          s1: "comunication",
+          s2: " analytical problem solving",
+          s3: " presentation",
+          s4: " research",
+          s5: "adaptability"
+        },
+
+        { Achievements: "-",
+          School: "Group Dance Interschool - First prize",
+          College: "Rock Band - First prize",
+          Career: "Best Retention Rate Award"
+        }
+
+]
+
+\\ to iterate through all resume details
+
+emp.forEach((info) => {
+    for(let key in info){
+    console.log(`${key}:${info[key]}`);
+     }
+   });
