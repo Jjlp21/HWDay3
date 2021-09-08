@@ -50,7 +50,7 @@ var emp= [
 
 ]
 
-\\ to iterate through all resume details
+// to iterate through all resume details
 
 emp.forEach((info) => {
     for(let key in info){
